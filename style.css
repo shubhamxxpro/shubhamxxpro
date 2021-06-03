@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    padding-top: 600px;
+}
+
+img {
+    top:100px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    background-color: aqua;
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    color: chartreuse;
+    display: table;
+    left: 0;
+    right: 0;
+    top: 50;
+    bottom: 0;
+    z-index: 9;
+
+
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#name {
+    font-size: 40px;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 50px;
+}
+
+.line {
+    width: 80px;
+    height: 6px;
+    background-color: black;
+    margin: 5px auto;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+
+}
+
+.index {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background-color: snow;
+    margin-top: 0px;
+    
+
+}
+
+.links {
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color:lightblue;
+    display: inline;
+
+}
+
+.links:hover {
+    background-color:red;
+    color: aqua;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+.article:hover {
+    color: fuchsia;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.contact1 h3{
+    display:inline;
+    
+}
+#contact{
+    width: 100%;
+}
